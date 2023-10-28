@@ -1,0 +1,17 @@
+1.- Nombre del proyecto
+Singleton
+2.- Para que se utiliza
+Crear una instancia en una clase con varios procesos
+3.- La problematica que soluciona
+Evitar crear toda la clase de nuevo para una sola función 
+4.- Cuando debe ser utilizada
+Cuando se creará un algoritmo interno para realizar una instancia
+5.- Como se crea el prroyecto
+Se crea la clase de Singleton
+Se pone la instancia interna del proyecto 
+Se crea la propiedad del mensaje que se visualizará
+Se crea la propiedad para que se regrese la instancia de vuelta, en esta si la propiedad de instance es null se creará una nueva
+En la pestaña de Program se crea la instancia con un Console.WriteLine
+Para cambiar el mensaje que se visualizará, en el Console.WriteLine se crea la función con el nuevo mensaje
+Para visualizar los dos mensajes que se crearon en el código se usa un punto de interrupción después de los Console.WriteLine y al corre el código se abrirá 
+la ventana con los dos mensajes que se crearon.
